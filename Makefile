@@ -5,8 +5,8 @@ check-deps:
 		echo "Installing required package: gnome-shell-extensions..."; \
 		sudo apt-get update && sudo apt-get install -y gnome-shell-extensions; \
 	fi
-	
-install:
+
+install: check-deps
 	@echo "Installing extension..."
 	mkdir -p ~/.local/share/gnome-shell/extensions
 	cp -r nvidiaview@aaronpp.in ~/.local/share/gnome-shell/extensions/
