@@ -1,0 +1,8 @@
+{
+  "name": "nvidia gpu usage",
+  "description": "nvidia gpu usage",
+  "uuid": "nvidiaview@aaronpp.in",
+  "shell-version": [
+    "42"
+  ]
+}
